@@ -3,7 +3,7 @@ Localstorage with expire time in Javascript
 
 # Set
 ```javascript
-storageLocal.set(key,value);
+storageLocal.set(key,value,expire);
 ```
 
 # Get
