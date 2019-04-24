@@ -41,3 +41,9 @@ var storageLocal = {
         return this.prefix() + name;
     }
 };
+
+var time = {
+    nowUnix: function () {
+        return Math.floor(Date.now() / 1000);
+    }
+};
